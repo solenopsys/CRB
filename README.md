@@ -162,8 +162,8 @@ At scale with in-house powder production: **$20,000–25,000** per unit is a rea
 | Parameter | Falcon 9 | Rocket Lab Electron | **CRB** |
 |-----------|----------|---------------------|----------|
 | Payload to LEO | 22,800 kg | 300 kg | 100–200 kg |
-| Launch price | ~$70M | ~$8M | **~$100–200k** |
-| $/kg LEO | ~$2,700 | ~$7,000 | **$500–2,000** |
+| Launch price | ~$70M | ~$8M | **~$50k** |
+| $/kg LEO | ~$2,700 | ~$7,000 | **$500** |
 | Parts count | ~100,000 | ~10,000 | **~1** |
 | Assembly required | Months | Weeks | **None** |
 | Moving parts in propulsion | Yes | Yes | **Zero** |
