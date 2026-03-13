@@ -1,3 +1,40 @@
+ 
+## A New Class of Launch Vehicle
+
+CRB does not fit cleanly into any existing propulsion category. It is not a conventional solid rocket, not a conventional liquid rocket, and not a hybrid in the usual sense. Classical hybrids still depend on separate combustion chambers, oxidizer tanks, and nozzle hardware. CRB seeks to collapse all of these functions into a single reactive structure.
+
+For decades, rocket design has been defined by a fundamental trade-off.
+
+**Solid rockets** offer simplicity, storability, and high thrust density, but their burn behavior is largely fixed at manufacture, and the pressure-bearing casing remains inert mass throughout the flight.
+
+**Liquid rockets** offer controllability and high performance, but only at the cost of tanks, pumps, valves, feed systems, and a mechanically complex propulsion chain required to deliver propellants into the chamber under extreme conditions.
+
+CRB does not simply optimize one side of this trade-off. It attempts to redefine it.
+
+| Property                         | Solid                       | Liquid                             | CRB                                             |
+| -------------------------------- | --------------------------- | ---------------------------------- | ----------------------------------------------- |
+| Propellant architecture          | Grain in casing             | Separate tanks and feed system     | Reactive structural matrix                      |
+| Oxidizer architecture            | Mixed or absent             | Separate storage and delivery      | Distributed through internal matrix volume      |
+| Turbomachinery                   | No                          | Yes                                | No                                              |
+| Thrust shaping                   | Fixed by grain design       | Actively controllable              | Encoded in printed geometry                     |
+| Acceleration profile flexibility | Limited                     | Broad active control               | Wide pre-programmed range via internal geometry |
+| Cooling approach                 | Limited                     | Regenerative / active              | Integrated internal cooling potential           |
+| Combustion stability             | Design-dependent            | Major design challenge             | Potentially improved by geometric segmentation  |
+| Residual structural mass         | High                        | High                               | Potentially very low                            |
+| Pressure capability              | Limited by casing / chamber | Limited by chamber and feed system | Limited by local cell geometry                  |
+| Manufacturing                    | Multi-part assembly         | Complex assembly                   | Additively manufactured primary structure       |
+
+The central idea is simple but radical: the same material may serve both as a pressure-bearing structure and as a consumable reactive medium. In conventional rockets, chamber walls and tank walls do their structural job and then remain onboard as inert hardware. In CRB, much of the load-bearing material is not merely carried as dead mass. It first contains pressure, maintains geometry, and supports combustion — and is then progressively converted into reactive mass that contributes directly to thrust.
+
+CRB also changes how burn progression can be controlled. In conventional solid rockets, the thrust curve is constrained by relatively simple grain geometry chosen at manufacture. In CRB, the internal architecture itself becomes a high-resolution control layer: cell size, channel topology, wall thickness, porosity, local oxidizer distribution, and nozzle-field geometry can all be encoded directly into the printed structure. This makes it possible, in principle, to pre-program a far wider range of thrust and acceleration profiles than in traditional solid propulsion.
+
+That is the real conceptual break.
+
+CRB does not bypass classical rocket physics. It changes the role of structure inside the vehicle, and it changes how combustion can be shaped. In a conventional rocket, structural mass is largely a penalty that must be accelerated for the duration of the flight. In CRB, a significant portion of that mass works twice: first as structure, then as propulsive mass. At the same time, the burn profile is no longer defined only by chemistry or a simple grain shape, but by a deeply structured three-dimensional reactive geometry.
+
+This opens a part of the design space that conventional rockets do not occupy: a vehicle in which much of the structure is consumable, in which material that would normally remain inert is instead turned into impulse, and in which the acceleration profile can be engineered across a much broader range through geometry alone. The result is not just a different engine layout, but a different mass logic and control logic for launch vehicles.
+
+ 
 
 
 **Launch System**
