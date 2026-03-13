@@ -92,8 +92,29 @@ Internal walls between adjacent cells carry near-zero differential load: both fa
 
 The result is not one combustion chamber. It is an array of thousands of micro-chambers operating in parallel — each holding pressure a conventional single chamber of comparable wall thickness could never sustain. Failure of individual cells is statistically irrelevant to total thrust. The engine does not fail — it gradually consumes itself, as designed.
 
+ 
 
-### 3.3 Oxidizer Loading
+### 3.3 Combustion Front Propagation — PTFE Barrier Layer
+
+Uncontrolled propagation of the combustion front through a porous reactive metal matrix under 300+ bar LOX pressure would result in detonation rather than controlled thrust. The solution is a sacrificial PTFE (polytetrafluoroethylene) coating applied to the internal pore surfaces — 15–50 microns, infiltrated into the oxide layer of the metal.
+
+The mechanism operates in three phases:
+
+**Cold phase.** While the matrix is LOX-saturated and cold, PTFE is mechanically pressed into the metal micropores. Direct metal-oxidizer contact is prevented. No ignition is possible.
+
+**Transition phase.** As the combustion front approaches, radiant heat and hot gas raise local temperature to 400–500°C. PTFE begins thermal decomposition — an endothermic process that briefly delays metal exposure and absorbs energy from the advancing front.
+
+**Ignition phase.** Once PTFE has volatilized, hot LOX contacts the bare metal surface. The oxide layer, already cracked from thermal stress, fails. Metal ignites instantaneously and combustion propagates to the next cell.
+
+The propagation speed is governed by the PTFE decomposition rate — not by the speed of sound in the metal. Ahead of the front, intact PTFE on cold metal provides no reactive surface for a shock wave to couple with. Detonation cannot run ahead of the thermal front.
+
+A secondary effect: PTFE decomposition releases fluorine, itself a stronger oxidizer than oxygen. The metal-fluorine reaction contributes additional enthalpy to local combustion, marginally increasing specific impulse.
+
+The result is a self-regulating burn front — stable, progressive, and encoded by coating geometry rather than by active control systems.
+
+---
+
+### 3.4 Oxidizer Loading
 
 The porous matrix is saturated with liquid oxidizer (LOX or equivalent) prior to or at the launch site. The specific loading method is not constrained by this disclosure — viable approaches include pressure infiltration, vacuum-assisted flooding, or staged cryogenic filling at the launch stand.
 
@@ -101,7 +122,7 @@ Both open-ended and sealed-base configurations are considered. In the sealed-bas
 
 The absence of fill lines, valves, or pumps in the propulsion path is the key property — not the specific loading procedure.
 
-### 3.3.1 Ecology and Reaction Products
+### 3.5 Ecology and Reaction Products
 
 Unlike conventional solid rocket boosters based on ammonium perchlorate and toxic hypergolic systems, the Al-Mg-Zn + LOX propellant combination is significantly cleaner in terms of combustion products.
 
@@ -114,7 +135,7 @@ The main reaction products are stable metal oxides:
 Thus, the system does not produce the chlorine-containing toxic combustion products characteristic of a number of traditional rocket propulsion schemes.
 
 
-### 3.3.2 Gradient Nozzle Structure Along the Altitude Profile
+### 3.6 Gradient Nozzle Structure Along the Altitude Profile
 
 The booster is a large array of integrated micro-nozzles built directly into the reactive load-bearing structure of the body.
 
@@ -127,7 +148,7 @@ To compensate for changing atmospheric pressure during ascent, the design uses a
 Thus, altitude compensation is achieved not by moving mechanical parts, but by the nozzle distribution embedded in the printed matrix.
 
 
-### 3.4 Flight Control
+### 3.7 Flight Control
 
 Three hybrid fin/thruster assemblies mounted on payload module:
 - **In atmosphere:** Aerodynamic control surfaces
@@ -135,7 +156,7 @@ Three hybrid fin/thruster assemblies mounted on payload module:
 - **Fine correction:** Micro cold-gas thrusters
 - **Primary stabilization:** Gyroscopic spin from helical surface ribs printed integrally — passive, no actuators
 
-### 3.5 Payload Module
+### 3.8 Payload Module
 
 The payload module (satellite bus) is not a separate launch component. It is manufactured by the same LPBF process from the same material family, snaps onto the rocket body, and remains on orbit as a functional spacecraft after the propulsion body is consumed. Its cost is attributed to the satellite, not to the launch vehicle.
 
