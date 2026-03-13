@@ -78,7 +78,22 @@ Key manufacturing innovation:
 - Single printer, single material, single process
 - No assembly, no post-processing, no human integration steps
 
-### 3.2 Oxidizer Loading
+ 
+
+### 3.2 Chamber Pressure — Why the Geometry Wins
+
+Rocket engine performance scales directly with combustion chamber pressure. SpaceX Raptor holds ~300 bar — a world record among production engines, achieved through staged full-flow combustion and turbopumps operating above 700 bar.
+
+CRB reaches equivalent pressure through geometry alone.
+
+A cylindrical cell of 10 mm diameter printed from Mg-Al-Zn alloy (yield strength ~275 MPa) sustains over 800 bar with a 1.5 mm wall — calculated from thin-wall pressure vessel mechanics (P = 2σt/d). Small diameter is not a limitation. It is the pressure advantage.
+
+Internal walls between adjacent cells carry near-zero differential load: both faces are at combustion pressure simultaneously. These walls function as thermal and flow separators, not pressure vessels. They can be made substantially thinner than 1 mm.
+
+The result is not one combustion chamber. It is an array of thousands of micro-chambers operating in parallel — each holding pressure a conventional single chamber of comparable wall thickness could never sustain. Failure of individual cells is statistically irrelevant to total thrust. The engine does not fail — it gradually consumes itself, as designed.
+
+
+### 3.3 Oxidizer Loading
 
 The porous matrix is saturated with liquid oxidizer (LOX or equivalent) prior to or at the launch site. The specific loading method is not constrained by this disclosure — viable approaches include pressure infiltration, vacuum-assisted flooding, or staged cryogenic filling at the launch stand.
 
@@ -86,7 +101,7 @@ Both open-ended and sealed-base configurations are considered. In the sealed-bas
 
 The absence of fill lines, valves, or pumps in the propulsion path is the key property — not the specific loading procedure.
 
-### 3.2.1 Ecology and Reaction Products
+### 3.3.1 Ecology and Reaction Products
 
 Unlike conventional solid rocket boosters based on ammonium perchlorate and toxic hypergolic systems, the Al-Mg-Zn + LOX propellant combination is significantly cleaner in terms of combustion products.
 
@@ -99,7 +114,7 @@ The main reaction products are stable metal oxides:
 Thus, the system does not produce the chlorine-containing toxic combustion products characteristic of a number of traditional rocket propulsion schemes.
 
 
-### 3.3.1 Gradient Nozzle Structure Along the Altitude Profile
+### 3.3.2 Gradient Nozzle Structure Along the Altitude Profile
 
 The booster is a large array of integrated micro-nozzles built directly into the reactive load-bearing structure of the body.
 
@@ -112,7 +127,7 @@ To compensate for changing atmospheric pressure during ascent, the design uses a
 Thus, altitude compensation is achieved not by moving mechanical parts, but by the nozzle distribution embedded in the printed matrix.
 
 
-### 3.3 Flight Control
+### 3.4 Flight Control
 
 Three hybrid fin/thruster assemblies mounted on payload module:
 - **In atmosphere:** Aerodynamic control surfaces
@@ -120,7 +135,7 @@ Three hybrid fin/thruster assemblies mounted on payload module:
 - **Fine correction:** Micro cold-gas thrusters
 - **Primary stabilization:** Gyroscopic spin from helical surface ribs printed integrally — passive, no actuators
 
-### 3.4 Payload Module
+### 3.5 Payload Module
 
 The payload module (satellite bus) is not a separate launch component. It is manufactured by the same LPBF process from the same material family, snaps onto the rocket body, and remains on orbit as a functional spacecraft after the propulsion body is consumed. Its cost is attributed to the satellite, not to the launch vehicle.
 
