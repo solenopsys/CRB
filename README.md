@@ -86,6 +86,32 @@ Both open-ended and sealed-base configurations are considered. In the sealed-bas
 
 The absence of fill lines, valves, or pumps in the propulsion path is the key property — not the specific loading procedure.
 
+### 3.2.1 Ecology and Reaction Products
+
+Unlike conventional solid rocket boosters based on ammonium perchlorate and toxic hypergolic systems, the Al-Mg-Zn + LOX propellant combination is significantly cleaner in terms of combustion products.
+
+The main reaction products are stable metal oxides:
+
+* **aluminum oxide (Al₂O₃)**
+* **magnesium oxide (MgO)**
+* **zinc oxide (ZnO)**
+
+Thus, the system does not produce the chlorine-containing toxic combustion products characteristic of a number of traditional rocket propulsion schemes.
+
+
+### 3.3.1 Gradient Nozzle Structure Along the Altitude Profile
+
+The booster is a large array of integrated micro-nozzles built directly into the reactive load-bearing structure of the body.
+
+To compensate for changing atmospheric pressure during ascent, the design uses an altitude-gradient distribution of nozzle sections:
+
+* nozzles with lower expansion ratios operate at liftoff in dense atmosphere
+* nozzles with higher expansion ratios engage progressively as altitude increases and external pressure drops
+* thrust is produced by the combined action of a large number of nozzles with different geometries, pre-distributed throughout the booster structure
+
+Thus, altitude compensation is achieved not by moving mechanical parts, but by the nozzle distribution embedded in the printed matrix.
+
+
 ### 3.3 Flight Control
 
 Three hybrid fin/thruster assemblies mounted on payload module:
