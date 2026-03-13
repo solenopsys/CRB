@@ -39,4 +39,44 @@ Ignition is achieved in two stages. A high-frequency oscillator first ionizes th
 
 **3. Gravity losses are 5% of orbital velocity.** A conventional rocket accelerating at 1.5g spends 200+ seconds fighting gravity, losing 30–40% of its total delta-V before clearing the atmosphere. CRB reaches the Kármán line in 36 seconds. Gravity losses amount to ~357 m/s — under 5% of the 7,800 m/s needed for LEO. The rest goes directly into orbital velocity. This is not an optimization. It is a structural consequence: a rocket that is almost entirely propellant with no dead mass accelerates fast by definition, and a rocket that accelerates fast wastes almost nothing on gravity.
 
+
+Вот два раздела:
+
 ---
+
+###  Fractal Combustion Architecture
+
+In CRB, the distinction between combustion chamber and nozzle is not spatial in the conventional sense — there is no fixed chamber upstream and fixed nozzle downstream. Instead, every cell in the matrix passes through a defined lifecycle:
+
+1. **Storage** — cell is intact, PTFE-sealed, saturated with LOX
+2. **Combustion chamber** — PTFE is arc-ignited, metal burns, pressure peaks locally
+3. **Nozzle** — metal is consumed, cavity geometry expands, accelerates exhaust gas
+4. **Regenerative cooling** — while acting as nozzle, adjacent LOX microchannels flowing toward the active combustion front simultaneously cool the nozzle walls
+
+This lifecycle is not sequential along the axis of the rocket. It is distributed across a fractal ornamental pattern throughout the entire cross-section. At any given moment, the same transverse slice contains cells in all four states simultaneously — arranged by the fractal geometry so that every active combustion cell is always adjacent to a nozzle cell, and every nozzle cell is always adjacent to a LOX-carrying cooling channel.
+
+The result is regenerative cooling with no tubes, no manifolds, and no pumps — an emergent property of the printed geometry. This is the same principle used in Raptor and Merlin, where fuel cools the nozzle before entering the combustion chamber. In CRB it emerges naturally from the fractal structure rather than from hundreds of hand-designed channels.
+
+A single printed element simultaneously performs: propellant storage, combustion, nozzle expansion, regenerative cooling, and combustion front control. No existing engine architecture combines all five functions in one structure without moving parts.
+
+---
+
+###  AI Synthesis — Why This Cannot Be Designed by Hand
+
+The fractal combustion architecture described in 3.4 cannot be designed by a human engineer. The number of interdependent geometric variables — cell diameter, wall thickness, channel connectivity, local porosity, PTFE coverage pattern, nozzle expansion ratio distribution — exceeds what analytical or manual CAD methods can optimize simultaneously. A structure that looks correct in cross-section may produce unstable combustion front propagation, asymmetric thrust, or nozzle wall burnthrough at full pressure. The interactions are non-linear and non-local.
+
+The synthesis pipeline is:
+
+**Stage 1 — Random initialization.** A genetic algorithm generates thousands of randomized fractal structures across the design space. No structure is optimal; the purpose is coverage.
+
+**Stage 2 — Physics simulation.** Each candidate is evaluated through coupled CFD, thermodynamics, and structural mechanics — Isp, thrust profile, wall temperature, combustion front stability. Most candidates fail.
+
+**Stage 3 — Selection and mutation.** High-performing structures are crossed and mutated. Counterintuitive patterns emerge — asymmetric ornaments, non-obvious chamber-to-channel ratios — that no human designer would have proposed.
+
+**Stage 4 — Neural network acceleration.** A model trained on simulation results learns to predict structural performance without full CFD. Search speed increases by orders of magnitude.
+
+**Stage 5 — Mission-specific synthesis.** For each new mission, target orbit parameters are provided as input. The system outputs an optimized geometry within hours. The file goes directly to the LPBF printer.
+
+This pipeline transforms CRB from a rocket into a **platform**. The physical principle is fixed and disclosed. The geometry is different for every mission — synthesized, not designed. Each rocket is a unique AI-generated object compiled from a mission profile, not assembled from standard hardware.
+
+ 
