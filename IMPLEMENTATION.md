@@ -80,3 +80,28 @@ The synthesis pipeline is:
 This pipeline transforms CRB from a rocket into a **platform**. The physical principle is fixed and disclosed. The geometry is different for every mission — synthesized, not designed. Each rocket is a unique AI-generated object compiled from a mission profile, not assembled from standard hardware.
 
  
+###  Why the Standard Tsiolkovsky Interpretation Is Misleading for CRB
+
+The Tsiolkovsky rocket equation applies to CRB without exception — CRB is a reaction-propelled vehicle that gains velocity by expelling mass, and the conservation of momentum is not negotiable.
+
+What changes is the mass accounting.
+
+In a conventional rocket, structural mass is fixed and permanent. Tanks, engine casings, feed lines, and load-bearing walls remain with the vehicle from liftoff to burnout — dead weight that must be accelerated throughout the entire flight while contributing nothing to propulsion after the first second. The rocket equation penalizes this harshly: every kilogram of inert structure requires exponentially more propellant to reach orbital velocity.
+
+In CRB the reactive matrix is simultaneously propellant and load-bearing structure. As the vehicle operates, the material that was carrying mechanical load a moment ago is consumed and expelled as exhaust. Structure does not accumulate as dead mass — it is progressively converted into thrust.
+
+This does not break Tsiolkovsky. It changes what the final dry mass term actually contains.
+
+| Burned | Reactive mass remaining | Total vehicle mass |
+|--------|------------------------|-------------------|
+| 0% | 2,037 kg | 2,487 kg |
+| 25% | 1,528 kg | 1,978 kg |
+| 50% | 1,018 kg | 1,468 kg |
+| 75% | 509 kg | 959 kg |
+| 100% | 0 kg | 450 kg |
+
+The residual dry mass of CRB — avionics, fins, nose cone, igniter — is approximately 300 kg on a 2,337 kg vehicle: 12.8% of total mass. In conventional single-stage architectures, structural mass fraction rarely falls below 8–12%, but that fraction includes permanent engine hardware, tank walls, and plumbing that serve no propulsive function after ignition. In CRB the structural material that performs load-bearing function during flight is the same material that is being consumed to produce thrust.
+
+The correct framing is not "CRB escapes the rocket equation" but rather: **CRB achieves an unusually low residual inert mass fraction because most of its structural mass is consumable.** That is the architectural advantage — not a violation of classical mechanics, but a fundamentally different relationship between structure and propellant mass.
+ 
+ 
