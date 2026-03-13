@@ -1,4 +1,4 @@
----
+
 
 **Launch System**
 
@@ -11,10 +11,7 @@ The launch complex is a 0.5 m steel tube set in concrete in the ground with thre
 **3. Ignition system**
 Ignition is achieved in two stages. A high-frequency oscillator first ionizes the air gap between a ceramic igniter disk and the base of the rocket matrix, establishing thousands of conductive plasma channels — one per micro-chamber — simultaneously. A capacitor bank then discharges through timed thyristors, driving simultaneous arc strikes across all 2,000–3,000 chamber inlets in microseconds. Chamber pressure rises from zero to 300 bar across the full cross-section synchronously. No mechanical contact, no moving parts, no sequential ignition wave.
 
----
-
-
----
+ 
 
 **CRB — Integrated Flight Profile**
 
