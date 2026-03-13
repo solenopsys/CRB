@@ -157,21 +157,25 @@ At scale with in-house powder production: **$20,000–25,000** per unit is a rea
 | Baseline | $30k | $150k | 150 kg | $1,000 |
 | Serial production | $20k | $100k | 200 kg | $500 |
 
+ 
+
 ### 6.3 CRB vs Existing Systems
 
-| Parameter | Falcon 9 | Rocket Lab Electron | **CRB** |
-|-----------|----------|---------------------|----------|
-| Payload to LEO | 22,800 kg | 300 kg | 100–200 kg |
-| Launch price | ~$70M | ~$8M | **~$50-100k** |
-| $/kg LEO | ~$2,700 | ~$7,000 | **$500** |
-| Parts count | ~100,000 | ~10,000 | **~1** |
-| Assembly required | Months | Weeks | **None** |
-| Moving parts in propulsion | Yes | Yes | **Zero** |
-| Manufacturing process | Multi-step manual | Multi-step manual | **Single LPBF print** |
-| Post-processing | Extensive | Extensive | **None** |
-| Human labor per unit | High | High | **Near zero** |
-| Time from order to launch | Months | Months | **Days** |
-| Reusability | Partial | No | **Not applicable** |
+| Parameter | Falcon 9 | Rocket Lab Electron | SpinLaunch (Orbital) | **CRB** |
+| --- | --- | --- | --- | --- |
+| **Payload to LEO** | 22,800 kg | 300 kg | ~200 kg | **100–200 kg** |
+| **Launch Price** | ~$70M | ~$8M | < $500k (target) | **~$50–100k** |
+| **$/kg LEO** | ~$2,700 | ~$26,000 | ~$2,500 | **$500** |
+| **Parts Count** | ~100,000 | ~10,000 | ~1,000s (Excl. Accelerator) | **~1** |
+| **Assembly Required** | Months | Weeks | Days (Vehicle only) | **None** |
+| **Moving Parts** | Yes (Turbopumps) | Yes (Electric Pumps) | No (Vehicle) / Yes (Accelerator) | **Zero** |
+| **Manufacturing** | Multi-step manual | Multi-step manual | Composite winding/CNC | **Single LPBF print** |
+| **Post-processing** | Extensive | Extensive | Moderate | **None** |
+| **Human Labor** | High | High | Moderate | **Near zero** |
+| **Order to Launch** | Months | Months | Weeks | **Days** |
+| **Reusability** | Partial | No | Partial (Accelerator) | **Not applicable** |
+
+ 
 
 The competitive advantage is not reusability or peak performance. It is **radical manufacturing simplicity**. The entire production pipeline is:
 
