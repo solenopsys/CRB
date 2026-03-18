@@ -175,6 +175,22 @@ The following combinations are claimed as novel prior art:
 7. **Mission-specific geometry** — each rocket printed with unique AI-optimized structure for target orbit
 8. **Payload module as structural continuation** of rocket body, manufactured in same process
 
+## 4.1 Novelty Matrix — Prior Art Comparison
+
+The following table maps CRB's key claims against the closest known prior art.
+No identified prior art combines all properties in a single system.
+
+| Claim | Closest Prior Art | Gap |
+|-------|-------------------|-----|
+| Structural body = fuel, fully consumed in flight | Ablative nozzles (consumed passively) | In ablatives, consumption is a thermal penalty, not a propulsive mechanism. No prior art uses structural consumption as the primary propellant mass. |
+| Distributed micro-chamber + micro-nozzle array as primary thrust system | Multinozzle grids (AVIO, solid motors) | Prior multi-nozzle systems use fixed inert hardware. No prior art uses the nozzle array as consumable reactive structure. |
+| LOX micro-channels as simultaneous oxidizer feed and regenerative cooling | Raptor/Merlin regenerative cooling | Prior art cools inert walls. CRB channels cool walls that are themselves the fuel — cooling and fuel delivery are the same flow path. |
+| Candle-mode combustion: channels maintain structural geometry while surface burns | No identified prior art | — |
+| PTFE barrier layer controlling combustion front propagation in reactive metal matrix | No identified prior art | — |
+| AI-synthesized mission-specific geometry encoding trajectory in printed structure | No identified prior art | — |
+| Stationary print head / descending platform for arbitrary-length cylindrical bodies | Standard LPBF (height-limited) | No prior art applies this configuration to rocket-length reactive structures. |
+| Payload module as structural continuation of rocket body, same material, same process | No identified prior art | — |
+
 ---
 
 ## 5. Approximate Parameters
